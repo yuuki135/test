@@ -7,21 +7,15 @@ body {
 
 /* h2 を小さく */
 h2 {
-    font-size: 16px;       /* 必要なら 14px まで下げられる */
+    font-size: 8px;       /* 必要なら 14px まで下げられる */
     margin-bottom: 10px;
+    color: red;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2列レイアウト */
-    gap: 14px;
-}
+
 
 .car-card {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 8px;
+  
     text-align: center;
     text-decoration: none;
     color: black;
@@ -35,7 +29,7 @@ h2 {
 
 /* ★ 画像サイズをパーセントで指定（小さく反映される） */
 .car-card img {
-    width: 10%;     /* ← お好みで 40% / 60% などに調整可 */
+    width: 50%;     /* ← お好みで 40% / 60% などに調整可 */
     height: auto;   /* アスペクト比維持 */
     border-radius: 4px;
 }
@@ -50,6 +44,6 @@ h2 {
 .car-price,
 .car-total,
 .car-distance {
-    font-size: 11px;
+    font-size: 5px;
     margin: 2px 0;
 }
